@@ -19,3 +19,5 @@ docker run -d -p 9100:9100 --privileged --name prometheus-igpu-exporter  rhysbai
 If logs mention `Failed to initialize PMU! (Permission denied)`, `intel_gpu_top` doesn't have permissions to collect data. Check if running container as `--privileged`.
 
 Refresh period of `intel_gpu_top` can be set with environment variable `--env REFRESH_PERIOD_MS=10000`
+
+Metrics are available at `http://localhost:9100/metrics`
