@@ -1,8 +1,12 @@
 # Prometheus Intel GPU top exporter 
 
-This is a [docker container](https://hub.docker.com/r/rhysbailey/prometheus-igpu-exporter) that runs a Prometheus exporter for `intel_gpu_top`.
+This is a docker container that runs a Prometheus exporter for `intel_gpu_top`.
 
-![Grafana](grafana-screenshot.png)
+[Docker Hub](https://hub.docker.com/r/rhysbailey/prometheus-igpu-exporter)
+
+[GitHub](https://github.com/bairhys/prometheus-igpu-exporter)
+
+![Grafana](https://raw.githubusercontent.com/bairhys/prometheus-igpu-exporter/main/grafana-screenshot.png)
 
 ## Run the exporter
 
